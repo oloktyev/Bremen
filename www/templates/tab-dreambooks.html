@@ -1,0 +1,10 @@
+﻿<ion-view view-title="Все сонники">
+    <ion-content class="padding">
+      <ion-list>
+          <ion-item ng-repeat="dreamBook in dreamBooks" 
+                    href="#/tab/dreambooks/{{dreamBook.id}}">
+              <p>{{dreamBook.name}}</p>
+          </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>
